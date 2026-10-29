@@ -1,27 +1,31 @@
 # Strive Website Testing
 
-A manual website-testing coursework project by the Quality Detectives team (project code: B41_SDET_019). It documents planned testing and test scenarios for the Strive website.
+A manual website-testing coursework project documented by the Quality Detectives team (B41_SDET_019). It contains a test plan and an execution workbook for the Strive/Striive demo shopping website.
 
-## Contents
+## Application and scope
 
-- [Test plan](./test%20Plan.pdf) — the project testing plan.
-- [Test scenarios and cases](./Strive%20test%20Scenarios%20and%20Cases.xlsx) — documented scenarios and test cases.
+The [test plan](./test%20Plan.pdf) identifies the application under test as https://comfy-dusk-d4f4d5.netlify.app/. It describes planned functional, performance and compatibility testing; the repository itself provides manual testing documents rather than a runnable automation project.
 
-## Tools and approach
+The [workbook](./Strive%20test%20Scenarios%20and%20Cases.xlsx) includes scenario and case sheets for registration, login, search and cart. Cases record prerequisites, steps, test data, expected and actual results, priority, status and comments. These are historical coursework records and do not establish the site's current behavior.
 
-The repository contains a PDF test plan and an Excel workbook of test cases. It can be reviewed to understand the planned manual testing and documented scenarios.
+## Tools and artifacts
 
-## Access and review
+- **Manual testing:** browser-based checks against the demo site as described in the plan.
+- **Documentation:** PDF test plan and Excel workbook.
+- **Included artifacts:** [test plan](./test%20Plan.pdf) and [test scenarios and cases](./Strive%20test%20Scenarios%20and%20Cases.xlsx).
 
-1. Clone or download the repository:
+## Setup and review
+
+1. Download the repository or clone it:
 
    ```bash
    git clone https://github.com/abhijeet2829/Strive-website-testing.git
+   cd Strive-website-testing
    ```
 
-2. Open the PDF in a PDF reader and the workbook in a spreadsheet application.
-3. Review the test plan and test cases alongside the application under test, if available.
+2. Open the test plan in a PDF reader and the workbook in Excel or a compatible spreadsheet application.
+3. If the demo site is available, open it in a browser and follow individual case prerequisites and steps. Compare actual behavior with the expected result and record a fresh result separately.
 
-## Scope and limitations
+## Limitations
 
-This repository contains documentation rather than an executable automation suite. The availability and behavior of the original website may have changed since the coursework was completed.
+No application source code or executable automation suite is included. The demo site and its behavior may have changed; the saved test statuses are historical and have not been revalidated in this documentation update.
