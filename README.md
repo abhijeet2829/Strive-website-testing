@@ -27,8 +27,3 @@ The [test plan](./test%20Plan.pdf) identifies the application under test as http
 ## Key Features
 
 The [workbook](./Strive%20test%20Scenarios%20and%20Cases.xlsx) includes scenario and case sheets for registration, login, search and cart. Cases record prerequisites, steps, test data, expected and actual results, priority, status and comments. These are historical coursework records and do not establish the site's current behavior.
-
-## Limitations
-
-No application source code or executable automation suite is included. The demo site and its behavior may have changed; the saved test statuses are historical and have not been revalidated in this documentation update.
-
